@@ -1,0 +1,56 @@
+/* Estilo geral do corpo da página */
+body {
+  background-color: #111;  /* Fundo escuro */
+  color: white;            /* Texto branco */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    
+    padding: 10px;
+    color: red;
+ 
+    
+}
+
+ul{
+    text-align: center;
+    justify-content: center;
+  margin: 10px;
+    padding: 10px;
+    color: aqua;
+    list-style-position: inside;
+}
+
+
+.MR, .ST, .SC, .FR, .EM {
+  text-align: center;   
+  margin: 40px 0;       
+}
+
+
+.MR img, .ST img, .SC img, .FR img, .EM img {
+  display: block;
+  margin: 0 auto;       
+  max-width: 300px;   
+  height: auto;         
+}
+
+
+.MR h2, .ST h2, .SC h2, .FR h2, .EM h2 {
+  color: red;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+
+.MR p, .ST p, .SC p, .FR p, .EM p {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 600px;     
+  margin: 10px auto;  
+}
